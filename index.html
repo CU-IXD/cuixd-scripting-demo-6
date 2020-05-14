@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Example 1</title>
+  <link type="text/css" rel="stylesheet" href="https://bootswatch.com/3/darkly/bootstrap.css" />
+  <style>
+    .panel-heading:after {
+      clear:both;
+      display: block;
+      content:"";
+    }
+    .panel-title {
+      padding-left:0;
+    }
+  </style>
+</head>
+
+<body class="container">
+
+  <header id="masthead" class="jumbotron">
+    <h1>Example File</h1>
+    <p>Dress rehearsal of DOM traversal</p>
+  </header>
+  <main class="row">
+    <div id="info" class="col-sm-6">
+      <h2>Info</h2>
+      <p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla porta non orci non tristique. Aenean porta ut metus quis sollicitudin. Fusce eget purus est. Nullam eu eleifend dui. Maecenas eu ipsum in velit ornare maximus.</p>
+      <p>Etiam sed erat lectus. Sed ultricies nulla et dapibus posuere. Duis consectetur purus eu risus tempus pharetra. Duis quis urna nulla. Donec lorem sem, lobortis non erat et, maximus fringilla purus.</p>
+      <p>Aliquam blandit purus sit amet egestas faucibus. Suspendisse orci ipsum, scelerisque at est non, porttitor convallis tellus. Suspendisse potenti. Curabitur sodales nisl nec sapien placerat pellentesque sit amet in sem. Etiam laoreet semper tellus, ut feugiat libero. Sed sit amet augue tincidunt, dignissim tellus sit amet, mattis quam.</p>
+      <ul>
+        <li>Morbi quam sapien, fermentum rhoncus malesuada a, viverra ac dolor.</li>
+        <li>Fusce fringilla nibh eu imperdiet efficitur.</li>
+        <li>Suspendisse potenti. Etiam et libero ullamcorper, lacinia libero ut, tristique dui.</li>
+      </ul>
+      <div class="alert alert-info">
+        <p id="message">Info will appear here.</p>
+      </div>
+    </div>
+    <div id="shopping-list" class="shopping-list col-sm-6">
+      <h2>Shopping lists</h2>
+      <div id="list-1" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title list-name col-sm-10">Aldi</h3>
+          <button class="btn btn-add btn-xs btn-success col-sm-2">+ Item</button>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li id="item-1" class="list-group-item">Chicken</li>
+            <li id="item-2" class="list-group-item">Cucumber</li>
+            <li id="item-3" class="list-group-item">Peppers</li>
+            <li id="item-4" class="list-group-item">Onions</li>
+            <li id="item-5" class="list-group-item">Garlic</li>
+          </ul>
+        </div>
+      </div>
+      <div id="list-2" class="panel panel-primary">
+        <div class="panel-heading">
+          <h3 class="panel-title list-name col-sm-10">Meijer</h3>
+          <button class="btn btn-add btn-xs btn-success col-sm-2">+ Item</button>
+        </div>
+        <div class="panel-body">
+          <ul class="list-group">
+            <li id="item-6" class="list-group-item">Curry sauce</li>
+            <li id="item-7" class="list-group-item">Rice</li>
+            <li id="item-8" class="list-group-item">Mango</li>
+            <li id="item-9" class="list-group-item">Lime juice</li>
+            <li id="item-10" class="list-group-item">Cocunut milk</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+
+
+</body>
+
+</html>
